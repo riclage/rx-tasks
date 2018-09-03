@@ -26,11 +26,11 @@ android {
 
 dependencies {
   implementation 'com.google.android.gms:play-services-tasks:15.0.1'
-  implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.2.51'
-  implementation 'io.reactivex.rxjava2:rxjava:2.1.14'
+  implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.2.61'
+  implementation 'io.reactivex.rxjava2:rxjava:2.2.0'
 
   testImplementation 'junit:junit:4.12'
-  testImplementation 'com.google.truth:truth:0.30'
+  testImplementation 'com.google.truth:truth:0.40'
 
   testImplementation 'org.mockito:mockito-core:2.19.0'
   testImplementation 'com.nhaarman:mockito-kotlin-kt1.1:1.6.0'
