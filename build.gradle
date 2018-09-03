@@ -22,9 +22,6 @@ buildscript {
 
 subprojects {
   def gradleScriptDir = "${rootProject.projectDir}/gradle"
-
   apply from: "${gradleScriptDir}/git-release-notes.gradle"
-  apply from: "${gradleScriptDir}/gradle-mvn-push.gradle"
-
   tasks.withType(Javadoc).all { enabled = false }
 }
